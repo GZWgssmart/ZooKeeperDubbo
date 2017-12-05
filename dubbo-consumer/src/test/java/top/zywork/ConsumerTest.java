@@ -9,7 +9,7 @@ import top.zywork.service.UserService;
 import javax.annotation.Resource;
 
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"classpath:/config/spring-*.xml"})
+@ContextConfiguration({"classpath:/config/spring-dubbo-service.xml"})
 public class ConsumerTest {
 
     @Resource
